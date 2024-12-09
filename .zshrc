@@ -22,6 +22,9 @@ DISABLE_LS_COLORS="true"
 # Custom path for fzf binary
 FZF_PATH="${XDG_DATA_HOME:-$HOME/.local/share}/fzf"
 
+# Zsh custom directory
+ZSH_CUSTOM="${XDG_CONFIG_HOME:-$HOME/.config}/omz"
+
 # Plugins list
 plugins=(
   gpg-agent
